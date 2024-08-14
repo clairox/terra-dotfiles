@@ -1,0 +1,47 @@
+import = [
+	"~/.config/alacritty/jade-theme.toml"
+]
+
+live_config_reload = true
+
+[font]
+size = 9.0
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.offset]
+x = 0
+y = 0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[keyboard]
+bindings = [
+	{ key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }
+]
+
+[window]
+opacity = 0.95
+
+[window.padding]
+x = 10
+y = 10
+
+[env]
+TERM = "xterm-256color"

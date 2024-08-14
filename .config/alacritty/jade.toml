@@ -1,0 +1,9 @@
+[colors.primary]
+foreground = "#319b9b"
+background = "#e0f6f6"
+dim_foreground = ""
+dim_background = ""
+
+[colors.cursor]
+foreground = "#319b9b"
+
